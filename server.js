@@ -7,7 +7,7 @@ app.use(express.json());
 
 // ตัวอย่าง API route
 app.get("/", (req, res) => {
-  res.send("Start App Api ");
+  res.send("Start App Api Test 12345");
 });
 
 app.get("/api/data", (req, res) => {
